@@ -19,9 +19,44 @@
                 <a href="classes.html">Classes</a> &nbsp; 
                 <a href="schedule.html">Schedule</a> &nbsp; 
                 <a href="contact.html">Contact</a> &nbsp; 
-            
         </nav>
-    </main>
+
+    <main>
+            <section class="contact-form-section">
+                <h2>Get in Touch</h2>
+                <p>Have questions or want to learn more? Fill out the form below or use the contact information provided.</p>
+
+                <form action="submit_form.php" method="post"> <!-- Replace "submit_form.php" with your form handler -->
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="subject">Subject:</label><br>
+                    <input type="text" id="subject" name="subject"><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="6" required></textarea><br><br>
+
+                    <button type="submit" class="button">Send Message</button>
+                </form>
+
+            </section>
+
+            <section class="contact-details">
+                 <h3>Contact Information</h3>
+                 <address>
+                     <p><span class="highlight">Path of Light Yoga Studio</span><br>
+                     612 Serenity Way<br>
+                     El Dorado, CA 96162</p>
+                 </address>
+                 <p>Phone: 888-886-8080</p>
+                 <p>Email: <a href="mailto:samuel@obisesan.com">samuel@obisesan.com</a></p>
+                 <!-- You could embed a Google Map here -->
+                 <!-- <iframe src="https://www.google.com/maps/embed?pb=!..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+            </section>
+        </main>
     
     
     <footer>
