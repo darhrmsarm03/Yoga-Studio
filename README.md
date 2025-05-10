@@ -2,9 +2,9 @@
 
 This repository contains the code for a simple Path of Light Yoga Studio website.
 
-Project Overview
+## Project Overview
 
-The website provides basic information about the yoga studio, including:
+#### The website provides basic information about the yoga studio, including:
 
 - Information about the studio and its philosophy.
 - Details about the types of yoga classes offered.
@@ -13,7 +13,7 @@ The website provides basic information about the yoga studio, including:
 - Contact information (address and phone number).
 - Copyright information.
 
-  Files Included
+#### Files Included
 
 - `index.html`: The main landing page for the website.
 - `style.css`: The stylesheet for the website's appearance.
@@ -21,7 +21,7 @@ The website provides basic information about the yoga studio, including:
 - `schedule.html` (Linked): A page for the class schedule.
 - `contact.html` (Linked): A page with contact information and possibly a form.
 
-  How to View
+  #### How to View
 
 1.  Clone this repository to your local machine:
 
@@ -52,7 +52,7 @@ The website provides basic information about the yoga studio, including:
 
     - Contains styles to control the layout, colors, fonts, and other visual aspects of the website. (Note: The provided HTML only shows the structure; the actual styling is in `style.css`).
 
-Notes and Potential Improvements
+#### Notes and Potential Improvements
 
 - Semantic HTML: The current HTML has some areas that could be improved for better semantics and accessibility (e.g., using `<header>` and `<nav>` more consistently, ensuring proper heading hierarchy, using a `<form>` for the contact page).
 - Accessibility: Consider adding ARIA attributes and ensuring sufficient color contrast for better accessibility.
@@ -62,7 +62,7 @@ Notes and Potential Improvements
 - Content: The placeholder text in the "About" section should be replaced with actual content about the studio.
 - Navigation: The navigation links are just bold text separated by spaces. Using a `<ul>` and `<li>` structure within the `<nav>` element is the standard and more semantic approach.
 
-Contribution
+#### Contribution
 
 If you'd like to contribute to this project, feel free to fork the repository and submit a pull request.
 
