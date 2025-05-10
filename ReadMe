@@ -1,8 +1,8 @@
-## Path of Light Yoga Studio Website
+<p><b>Path of Light Yoga Studio Website </b></p>
 
 This repository contains the code for a simple Path of Light Yoga Studio website.
 
-## Project Overview
+Project Overview
 
 The website provides basic information about the yoga studio, including:
 
@@ -13,7 +13,7 @@ The website provides basic information about the yoga studio, including:
 - Contact information (address and phone number).
 - Copyright information.
 
-## Files Included
+  Files Included
 
 - `index.html`: The main landing page for the website.
 - `style.css`: The stylesheet for the website's appearance.
@@ -21,7 +21,7 @@ The website provides basic information about the yoga studio, including:
 - `schedule.html` (Linked): A page for the class schedule.
 - `contact.html` (Linked): A page with contact information and possibly a form.
 
-How to View
+  How to View
 
 1.  Clone this repository to your local machine:
 
@@ -33,3 +33,21 @@ How to View
 
 2.  Navigate to the project directory.
 3.  Open the `index.html` file in your web browser.
+
+    Code Structure
+
+    HTML (`index.html`):
+
+    - Basic HTML5 structure (`<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`).
+    - Includes meta tags for character set and title.
+    - Links to the `style.css` stylesheet.
+    - Contains a header with the studio name.
+    - Includes a navigation section with links to other pages.
+    - Uses a `<main>` element for the primary content of the home page.
+    - Includes a list of features/offerings.
+    - Displays contact information.
+    - It contains a footer with copyright and an email link.
+
+      CSS (`style.css`):
+
+    - Contains styles to control the layout, colors, fonts, and other visual aspects of the website. (Note: The provided HTML only shows the structure; the actual styling is in `style.css`).
