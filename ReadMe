@@ -1,4 +1,4 @@
-**Path of Light Yoga Studio Website**
+## Path of Light Yoga Studio Website
 
 This repository contains the code for a simple Path of Light Yoga Studio website.
 
@@ -11,4 +11,12 @@ The website provides basic information about the yoga studio, including:
 - A link to a schedule page (presumably `schedule.html`).
 - A link to a contact page (presumably `contact.html`).
 - Contact information (address and phone number).
-- Copyright information..
+- Copyright information.
+
+## Files Included
+
+- `index.html`: The main landing page for the website.
+- `style.css`: The stylesheet for the website's appearance.
+- `classes.html` (Linked): A page detailing the different yoga classes.
+- `schedule.html` (Linked): A page for the class schedule.
+- `contact.html` (Linked): A page with contact information and possibly a form.
