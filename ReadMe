@@ -1,4 +1,4 @@
-<p><b>Path of Light Yoga Studio Website </b></p>
+Path of Light Yoga Studio Website
 
 This repository contains the code for a simple Path of Light Yoga Studio website.
 
@@ -51,3 +51,13 @@ The website provides basic information about the yoga studio, including:
       CSS (`style.css`):
 
     - Contains styles to control the layout, colors, fonts, and other visual aspects of the website. (Note: The provided HTML only shows the structure; the actual styling is in `style.css`).
+
+Notes and Potential Improvements
+
+- Semantic HTML: The current HTML has some areas that could be improved for better semantics and accessibility (e.g., using `<header>` and `<nav>` more consistently, ensuring proper heading hierarchy, using a `<form>` for the contact page).
+- Accessibility: Consider adding ARIA attributes and ensuring sufficient color contrast for better accessibility.
+- Responsiveness: The current code doesn't include responsive design techniques (like media queries). This would be necessary to make the website display well on different screen sizes.
+- Contact Form: The `contact.html` page would likely need a form element to allow users to send messages. This would require server-side processing as well.
+- Image Assets: The current code doesn't include any images. A real-world yoga studio website would likely feature Images.
+- Content: The placeholder text in the "About" section should be replaced with actual content about the studio.
+- Navigation: The navigation links are just bold text separated by spaces. Using a `<ul>` and `<li>` structure within the `<nav>` element is the standard and more semantic approach.
