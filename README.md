@@ -34,7 +34,7 @@ This repository contains the code for a simple Path of Light Yoga Studio website
 2.  Navigate to the project directory.
 3.  Open the `index.html` file in your web browser.
 
-    Code Structure
+    #### Code Structure
 
     HTML (`index.html`):
 
